@@ -4,13 +4,15 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "yarn tsc && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
     "eslint": "eslint --ext .ts,.tsx ./src",
     "eslint:fix": "eslint --ext .ts,.tsx ./src --fix",
-    "lint": "yarn eslint",
-    "lint:fix": "yarn eslint:fix",
+    "fmt": "prettier --check 'src/**/*.{js,jsx,ts,tsx}'",
+    "fmt:fix": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint": "yarn eslint && yarn fmt",
+    "lint:fix": "yarn eslint:fix && yarn fmt:fix",
     "tsc": "tsc --noEmit",
     "ci": "yarn lint && yarn tsc"
   },
