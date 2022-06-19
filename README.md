@@ -1,1 +1,1 @@
-# vite-react-tauri-template
+# template-vite-react-tauri
