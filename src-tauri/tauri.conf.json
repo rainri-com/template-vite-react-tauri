@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "vite-react-tauri-template",
+    "productName": "Vite React Tauri Template",
     "version": "0.0.1"
   },
   "tauri": {
