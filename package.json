@@ -1,7 +1,7 @@
 {
   "name": "template-vite-react-tauri",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0",
+    "@types/node": "^18.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@types/styled-components": "^5.1.25",
